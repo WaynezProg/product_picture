@@ -8,5 +8,6 @@ venv/
 *.csv
 url2img/
 kitan/
+parade/
 product_folder/
 processed_urls.txt
