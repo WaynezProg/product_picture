@@ -7,3 +7,6 @@ venv/
 *.pyw
 *.csv
 url2img/
+kitan/
+product_folder/
+processed_urls.txt
