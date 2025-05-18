@@ -81,6 +81,6 @@ def convert_to_webp(source_dir, quality=80):
 if __name__ == "__main__":
     # 轉換 shopee 和 all 目錄下的所有圖片
     print("開始轉換 shopee 目錄...")
-    convert_to_webp("shopee")
+    convert_to_webp("ignore/shopee_old")
     print("\n開始轉換 all 目錄...")
-    convert_to_webp("all") 
+    convert_to_webp("ignore/all_old") 

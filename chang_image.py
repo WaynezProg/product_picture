@@ -4,9 +4,9 @@ from pathlib import Path
 
 def copy_files():
     # 定義資料夾路徑
-    change_dir = Path('change')
-    all_dir = Path('shopee')
-    old_version_dir = Path('old_version')
+    change_dir = Path('ignore/change')
+    all_dir = Path('ignore/shopee_old')
+    old_version_dir = Path('ignore/old_version')
 
     # 確保 old_version 資料夾存在
     old_version_dir.mkdir(exist_ok=True)
